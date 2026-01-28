@@ -5,6 +5,6 @@ export const userServices = {
             throw new Error("Failed to fetch users")
         }
         const data = await res.json()
-        console.log(data)
+        return data
     }
 }
